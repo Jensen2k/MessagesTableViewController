@@ -122,6 +122,14 @@
     return NO;
 }
 
+- (BOOL)shouldAllowVideos {
+    return YES;
+}
+
+-(void)didPressAttachment:(id)sender {
+    
+}
+
 //
 //  *** Implement to customize cell further
 //
@@ -148,6 +156,8 @@
     }
 }
 
+
+
 //  *** Implement to use a custom send button
 //
 //  The button's frame is set automatically for you
@@ -173,6 +183,8 @@
 
 - (JSMessage *)messageForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Return JSAttachmentMessage
+    
     return [self.messages objectAtIndex:indexPath.row];
 }
 

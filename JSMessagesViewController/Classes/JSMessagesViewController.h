@@ -16,7 +16,7 @@
 #import "JSMessageTableView.h"
 #import "JSMessageData.h"
 #import "JSBubbleMessageCell.h"
-#import "JSMessageInputView.h"
+#import "JSVideoMessageInputView.h"
 #import "JSAvatarImageFactory.h"
 #import "JSBubbleImageViewFactory.h"
 #import "JSMessageSoundEffect.h"
@@ -37,6 +37,8 @@
  *  @param date   The date and time at which the message was sent.
  */
 - (void)didSendText:(NSString *)text fromSender:(NSString *)sender onDate:(NSDate *)date;
+
+- (void)didPressAttachment:(id)sender;
 
 /**
  *  Asks the delegate for the message type for the row at the specified index path.
@@ -170,7 +172,7 @@
 /**
  *  Returns the message input view with which new messages are composed.
  */
-@property (weak, nonatomic, readonly) JSMessageInputView *messageInputView;
+@property (weak, nonatomic, readonly) JSVideoMessageInputView *messageInputView;
 
 /**
  *  The name of the user sending messages. The default value is `nil`.

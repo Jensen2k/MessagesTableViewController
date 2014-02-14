@@ -83,7 +83,7 @@
     
     UIPanGestureRecognizer *pan = allowsPan ? _tableView.panGestureRecognizer : nil;
     
-    JSMessageInputView *inputView = [[JSMessageInputView alloc] initWithFrame:inputFrame
+    JSVideoMessageInputView *inputView = [[JSVideoMessageInputView alloc] initWithFrame:inputFrame
                                                                         style:inputViewStyle
                                                                      delegate:self
                                                          panGestureRecognizer:pan];
@@ -102,6 +102,8 @@
     [inputView.sendButton addTarget:self
                              action:@selector(sendPressed:)
                    forControlEvents:UIControlEventTouchUpInside];
+    
+    [inputView.attachmentButton addTarget:self action:@selector(attachmentPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:inputView];
     _messageInputView = inputView;
@@ -197,6 +199,11 @@
     [self.delegate didSendText:[self.messageInputView.textView.text js_stringByTrimingWhitespace]
                     fromSender:self.sender
                         onDate:[NSDate date]];
+}
+
+- (void)attachmentPressed:(UIButton *)sender
+{
+    [self.delegate didPressAttachment:sender];
 }
 
 - (void)handleTapGestureRecognizer:(UITapGestureRecognizer *)tap
