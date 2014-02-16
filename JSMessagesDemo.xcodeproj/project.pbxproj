@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B11D27718AE798500D914C1 /* JSAttachmentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D27618AE798500D914C1 /* JSAttachmentMessage.m */; };
 		5B11D27A18AE7A3800D914C1 /* JSVideoMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D27918AE7A3800D914C1 /* JSVideoMessageInputView.m */; };
 		5B11D27F18AE9E7B00D914C1 /* attach_camera_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B11D27B18AE9E7B00D914C1 /* attach_camera_pressed.png */; };
 		5B11D28018AE9E7B00D914C1 /* attach_camera_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B11D27C18AE9E7B00D914C1 /* attach_camera_pressed@2x.png */; };
@@ -127,8 +126,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B11D27518AE798500D914C1 /* JSAttachmentMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAttachmentMessage.h; sourceTree = "<group>"; };
-		5B11D27618AE798500D914C1 /* JSAttachmentMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAttachmentMessage.m; sourceTree = "<group>"; };
 		5B11D27818AE7A3800D914C1 /* JSVideoMessageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSVideoMessageInputView.h; sourceTree = "<group>"; };
 		5B11D27918AE7A3800D914C1 /* JSVideoMessageInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSVideoMessageInputView.m; sourceTree = "<group>"; };
 		5B11D27B18AE9E7B00D914C1 /* attach_camera_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attach_camera_pressed.png; sourceTree = "<group>"; };
@@ -361,9 +358,6 @@
 				88A3FC2E182E0EA000705327 /* JSBubbleView.m */,
 				88A3FC2F182E0EA000705327 /* JSDismissiveTextView.h */,
 				88A3FC30182E0EA000705327 /* JSDismissiveTextView.m */,
-				88BA157B188F91BE00EDD5C0 /* JSMessage.h */,
-				5B11D27518AE798500D914C1 /* JSAttachmentMessage.h */,
-				5B11D27618AE798500D914C1 /* JSAttachmentMessage.m */,
 				88BA157C188F91BE00EDD5C0 /* JSMessage.m */,
 				88DB7C74189223F100D7117F /* JSMessageData.h */,
 				88A3FC31182E0EA000705327 /* JSMessageInputView.h */,
@@ -374,6 +368,7 @@
 				88A3FC34182E0EA000705327 /* JSMessageSoundEffect.m */,
 				88A3FC35182E0EA000705327 /* JSMessagesViewController.h */,
 				88A3FC36182E0EA000705327 /* JSMessagesViewController.m */,
+				88BA157B188F91BE00EDD5C0 /* JSMessage.h */,
 				88BA1578188F8FB900EDD5C0 /* JSMessageTableView.h */,
 				88BA1579188F8FB900EDD5C0 /* JSMessageTableView.m */,
 				88A3FC37182E0EA000705327 /* JSMessageTextView.h */,
@@ -768,7 +763,6 @@
 				88A3FB5A182E079E00705327 /* JSAppDelegate.m in Sources */,
 				88A3FC65182E0EA000705327 /* JSBubbleImageViewFactory.m in Sources */,
 				88A3FC59182E0EA000705327 /* NSString+JSMessagesView.m in Sources */,
-				5B11D27718AE798500D914C1 /* JSAttachmentMessage.m in Sources */,
 				88A3FC61182E0EA000705327 /* UIImage+JSMessagesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

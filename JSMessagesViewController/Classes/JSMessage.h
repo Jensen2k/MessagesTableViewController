@@ -16,9 +16,25 @@
 #import "JSMessageData.h"
 
 /**
+ *   The type of attachment we are using
+ */
+typedef NS_ENUM(NSInteger, JSMessageType) {
+    
+    JSMessageTypeText,
+    
+    JSMessageTypeVideo,
+    
+    JSMessageTypeImage
+    
+};
+
+/**
  *  A `JSMessage` object represents a single user message. This is a concrete class that implements the `JSMessageData` protocol. It contains the message text, its sender, and the date that the message was sent.
  */
 @interface JSMessage : NSObject <JSMessageData, NSCoding, NSCopying>
+
+
+@property (assign, nonatomic) JSMessageType messageType;
 
 /**
  *  The body text of the message. The default value is the empty string `@" "`. This value must not be `nil`.
