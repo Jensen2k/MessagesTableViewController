@@ -46,6 +46,11 @@
                      [[JSMessage alloc] initWithText:@"Group chat. Sound effects and images included. Animations are smooth. Messages can be of arbitrary size!" sender:kSubtitleWoz date:[NSDate date]],
                      nil];
     
+    JSMessage *msg = [[JSMessage alloc] initWithText:@"http://i.imgur.com/Vm0W41u.jpg" sender:kSubtitleCook date:[NSDate date]];
+    
+    msg.messageType = JSMessageTypeImage;
+    [self.messages addObject:msg];
+    
     self.avatars = [[NSDictionary alloc] initWithObjectsAndKeys:
                     [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-jobs" croppedToCircle:YES], kSubtitleJobs,
                     [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES], kSubtitleWoz,
@@ -187,6 +192,12 @@
     
     return [self.messages objectAtIndex:indexPath.row];
 }
+
+-(void)didSelectAttachmentAtIndexPath:(NSIndexPath*)indexPath {
+    NSLog(@"Tap tap");
+}
+
+
 
 - (UIImageView *)avatarImageViewForRowAtIndexPath:(NSIndexPath *)indexPath sender:(NSString *)sender
 {
