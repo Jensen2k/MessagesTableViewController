@@ -12,10 +12,10 @@
 		5B11D28018AE9E7B00D914C1 /* attach_camera_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B11D27C18AE9E7B00D914C1 /* attach_camera_pressed@2x.png */; };
 		5B11D28118AE9E7B00D914C1 /* attach_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B11D27D18AE9E7B00D914C1 /* attach_camera.png */; };
 		5B11D28218AE9E7B00D914C1 /* attach_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B11D27E18AE9E7B00D914C1 /* attach_camera@2x.png */; };
-		5B82C4C018B116C8000FC5B1 /* JSMessagesViewController+Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4BF18B116C8000FC5B1 /* JSMessagesViewController+Attachment.m */; };
-		5B82C4C318B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4C218B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.m */; };
-		5B82C4D118B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4CE18B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.m */; };
-		5B82C4D218B14C38000FC5B1 /* JSBubbleAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4D018B14C38000FC5B1 /* JSBubbleAttachmentView.m */; };
+		5B82C4DB18B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4D418B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.m */; };
+		5B82C4DC18B14D74000FC5B1 /* JSBubbleAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4D618B14D74000FC5B1 /* JSBubbleAttachmentView.m */; };
+		5B82C4DD18B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4D818B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.m */; };
+		5B82C4DE18B14D74000FC5B1 /* JSMessagesViewController+Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82C4DA18B14D74000FC5B1 /* JSMessagesViewController+Attachment.m */; };
 		6404600EC231419EB620AF48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFF9601294443728D9481E0 /* libPods.a */; };
 		885BAC4E185421C8004DCD34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BAC4D185421C8004DCD34 /* QuartzCore.framework */; };
 		885BAC4F185421D4004DCD34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BAC4D185421C8004DCD34 /* QuartzCore.framework */; };
@@ -136,14 +136,14 @@
 		5B11D27C18AE9E7B00D914C1 /* attach_camera_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attach_camera_pressed@2x.png"; sourceTree = "<group>"; };
 		5B11D27D18AE9E7B00D914C1 /* attach_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attach_camera.png; sourceTree = "<group>"; };
 		5B11D27E18AE9E7B00D914C1 /* attach_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attach_camera@2x.png"; sourceTree = "<group>"; };
-		5B82C4BE18B116C8000FC5B1 /* JSMessagesViewController+Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSMessagesViewController+Attachment.h"; path = "JSMessagesOverride/JSMessagesViewController+Attachment.h"; sourceTree = "<group>"; };
-		5B82C4BF18B116C8000FC5B1 /* JSMessagesViewController+Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSMessagesViewController+Attachment.m"; path = "JSMessagesOverride/JSMessagesViewController+Attachment.m"; sourceTree = "<group>"; };
-		5B82C4C118B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleTapGestureRecognizer.h; path = JSMessagesOverride/JSBubbleTapGestureRecognizer.h; sourceTree = "<group>"; };
-		5B82C4C218B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleTapGestureRecognizer.m; path = JSMessagesOverride/JSBubbleTapGestureRecognizer.m; sourceTree = "<group>"; };
-		5B82C4CD18B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleAttachmentMessageCell.h; path = JSMessagesOverride/JSBubbleAttachmentMessageCell.h; sourceTree = "<group>"; };
-		5B82C4CE18B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleAttachmentMessageCell.m; path = JSMessagesOverride/JSBubbleAttachmentMessageCell.m; sourceTree = "<group>"; };
-		5B82C4CF18B14C38000FC5B1 /* JSBubbleAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleAttachmentView.h; path = JSMessagesOverride/JSBubbleAttachmentView.h; sourceTree = "<group>"; };
-		5B82C4D018B14C38000FC5B1 /* JSBubbleAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleAttachmentView.m; path = JSMessagesOverride/JSBubbleAttachmentView.m; sourceTree = "<group>"; };
+		5B82C4D318B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleAttachmentMessageCell.h; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleAttachmentMessageCell.h; sourceTree = "<group>"; };
+		5B82C4D418B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleAttachmentMessageCell.m; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleAttachmentMessageCell.m; sourceTree = "<group>"; };
+		5B82C4D518B14D74000FC5B1 /* JSBubbleAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleAttachmentView.h; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleAttachmentView.h; sourceTree = "<group>"; };
+		5B82C4D618B14D74000FC5B1 /* JSBubbleAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleAttachmentView.m; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleAttachmentView.m; sourceTree = "<group>"; };
+		5B82C4D718B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSBubbleTapGestureRecognizer.h; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleTapGestureRecognizer.h; sourceTree = "<group>"; };
+		5B82C4D818B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSBubbleTapGestureRecognizer.m; path = JSMessagesViewController/Classes/JSMessagesOverride/JSBubbleTapGestureRecognizer.m; sourceTree = "<group>"; };
+		5B82C4D918B14D74000FC5B1 /* JSMessagesViewController+Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSMessagesViewController+Attachment.h"; path = "JSMessagesViewController/Classes/JSMessagesOverride/JSMessagesViewController+Attachment.h"; sourceTree = "<group>"; };
+		5B82C4DA18B14D74000FC5B1 /* JSMessagesViewController+Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "JSMessagesViewController+Attachment.m"; path = "JSMessagesViewController/Classes/JSMessagesOverride/JSMessagesViewController+Attachment.m"; sourceTree = "<group>"; };
 		6AFF9601294443728D9481E0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		885BAC4D185421C8004DCD34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		88A3FB46182E079E00705327 /* JSMessagesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSMessagesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,22 +274,22 @@
 		5B82C4BD18B11654000FC5B1 /* JSMessagesOverride */ = {
 			isa = PBXGroup;
 			children = (
-				5B82C4BE18B116C8000FC5B1 /* JSMessagesViewController+Attachment.h */,
-				5B82C4BF18B116C8000FC5B1 /* JSMessagesViewController+Attachment.m */,
-				5B82C4C118B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.h */,
-				5B82C4C218B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.m */,
-				5B82C4CD18B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.h */,
-				5B82C4CE18B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.m */,
-				5B82C4CF18B14C38000FC5B1 /* JSBubbleAttachmentView.h */,
-				5B82C4D018B14C38000FC5B1 /* JSBubbleAttachmentView.m */,
+				5B82C4D318B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.h */,
+				5B82C4D418B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.m */,
+				5B82C4D518B14D74000FC5B1 /* JSBubbleAttachmentView.h */,
+				5B82C4D618B14D74000FC5B1 /* JSBubbleAttachmentView.m */,
+				5B82C4D718B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.h */,
+				5B82C4D818B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.m */,
+				5B82C4D918B14D74000FC5B1 /* JSMessagesViewController+Attachment.h */,
+				5B82C4DA18B14D74000FC5B1 /* JSMessagesViewController+Attachment.m */,
 			);
 			name = JSMessagesOverride;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		88A3FB3D182E079D00705327 = {
 			isa = PBXGroup;
 			children = (
-				5B82C4BD18B11654000FC5B1 /* JSMessagesOverride */,
 				88A3FC19182E0EA000705327 /* JSMessagesViewController */,
 				88A3FC13182E0B8C00705327 /* JSMessagesViewController.podspec */,
 				88A3FC14182E0B8C00705327 /* LICENSE.txt */,
@@ -378,6 +378,7 @@
 		88A3FC1A182E0EA000705327 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B82C4BD18B11654000FC5B1 /* JSMessagesOverride */,
 				88A3FC1B182E0EA000705327 /* Categories */,
 				88A3FC26182E0EA000705327 /* Factories */,
 				88A3FC2B182E0EA000705327 /* JSBubbleMessageCell.h */,
@@ -774,25 +775,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B82C4DC18B14D74000FC5B1 /* JSBubbleAttachmentView.m in Sources */,
 				88A3FC67182E0EA000705327 /* JSBubbleMessageCell.m in Sources */,
 				88A3FC6B182E0EA000705327 /* JSDismissiveTextView.m in Sources */,
 				88BA157D188F91BE00EDD5C0 /* JSMessage.m in Sources */,
-				5B82C4D118B14C38000FC5B1 /* JSBubbleAttachmentMessageCell.m in Sources */,
+				5B82C4DD18B14D74000FC5B1 /* JSBubbleTapGestureRecognizer.m in Sources */,
 				88A3FC6F182E0EA000705327 /* JSMessageSoundEffect.m in Sources */,
+				5B82C4DE18B14D74000FC5B1 /* JSMessagesViewController+Attachment.m in Sources */,
 				5B11D27A18AE7A3800D914C1 /* JSVideoMessageInputView.m in Sources */,
 				88A3FC69182E0EA000705327 /* JSBubbleView.m in Sources */,
 				88BA157A188F8FB900EDD5C0 /* JSMessageTableView.m in Sources */,
+				5B82C4DB18B14D74000FC5B1 /* JSBubbleAttachmentMessageCell.m in Sources */,
 				88A3FB56182E079E00705327 /* main.m in Sources */,
-				5B82C4C018B116C8000FC5B1 /* JSMessagesViewController+Attachment.m in Sources */,
 				88A3FC5D182E0EA000705327 /* UIColor+JSMessagesView.m in Sources */,
 				88A3FB63182E079E00705327 /* JSDemoViewController.m in Sources */,
 				88A3FC6D182E0EA000705327 /* JSMessageInputView.m in Sources */,
 				88A3FC63182E0EA000705327 /* JSAvatarImageFactory.m in Sources */,
 				88A3FC71182E0EA000705327 /* JSMessagesViewController.m in Sources */,
-				5B82C4C318B1218C000FC5B1 /* JSBubbleTapGestureRecognizer.m in Sources */,
 				88A3FC73182E0EA000705327 /* JSMessageTextView.m in Sources */,
 				88A3FB5A182E079E00705327 /* JSAppDelegate.m in Sources */,
-				5B82C4D218B14C38000FC5B1 /* JSBubbleAttachmentView.m in Sources */,
 				88A3FC65182E0EA000705327 /* JSBubbleImageViewFactory.m in Sources */,
 				88A3FC59182E0EA000705327 /* NSString+JSMessagesView.m in Sources */,
 				88A3FC61182E0EA000705327 /* UIImage+JSMessagesView.m in Sources */,
