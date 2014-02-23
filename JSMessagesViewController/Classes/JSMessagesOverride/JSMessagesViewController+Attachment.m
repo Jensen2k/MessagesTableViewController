@@ -32,6 +32,16 @@
 
 - (UITableViewCell *)swizzled_tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
+    // Check if this is a position where we should show a loading cell
+    BOOL shouldDisplayLoadingCell = [self.delegate shouldDisplayLoadingCellForRowAtIndexPath:indexPath];
+    if (shouldDisplayLoadingCell) {
+        UITableViewCell *loadingCell = [self.delegate loadingCellForRowAtIndexPath:indexPath];
+        
+        return loadingCell;
+        
+    }
+    
     JSBubbleMessageType type = [self.delegate messageTypeForRowAtIndexPath:indexPath];
     
     UIImageView *bubbleImageView = [self.delegate bubbleImageViewWithType:type
